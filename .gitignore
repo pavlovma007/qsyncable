@@ -37,3 +37,5 @@ vendor
 build-*
 docs/html
 build
+
+CMakeLists.txt.user
