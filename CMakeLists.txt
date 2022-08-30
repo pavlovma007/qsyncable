@@ -5,9 +5,9 @@ find_package(Qt5 ${QT_REQUIRED_VERSION} CONFIG REQUIRED COMPONENTS Gui Qml)
 
 # Target
 add_library(${PROJECT_NAME} SHARED "")
-
 # Include
 target_include_directories(${PROJECT_NAME} PUBLIC "./")
+set_target_properties(qsyncable PROPERTIES AUTOMOC ON)
 
 # Sources
 file(GLOB SOURCES "./*")

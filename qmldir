@@ -1,0 +1,2 @@
+module  QSyncable
+plugin  qsyncable
